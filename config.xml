@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		=	"http://www.w3.org/ns/widgets"
+	xmlns:gap	=	"http://phonegap.com/ns/1.0"
+	id		=	"com.exam.hello"
+	version		=	"1.0">
+
+	<name>Phonegap:Android-web-app</name>
+
+	<description>
+		Chinese using every day there HANZI. we are study 200 word.
+	</description>
+
+	<author href="http://xxch.wo.tc"
+		email="i29182623@hanmail.net">
+		Lee Sanghun
+	</author>
+
+	<gap:platforms>
+		<gap:platform name="android" minVersion="2.2" />
+	</gap:platforms>
+
+	<icon src="icon.png" gap:role="default" />
+
+	<feature name="http://api.phonegap.com/1.0/network"/>
+</widget>
